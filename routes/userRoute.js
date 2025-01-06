@@ -1,5 +1,5 @@
 import express from 'express';
-import { fetch, create, update, deletes, getdetails} from '../../controller/userController.js';
+import { fetch, create, update, deletes, getdetails} from '../controller/userController.js';
 
 const router=express.Router();
 
